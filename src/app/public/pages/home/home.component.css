@@ -1,0 +1,13 @@
+.hero-image-container {
+  width: 100%;
+  img.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.hero-text {
+  text-align: center;
+  padding: 2rem;
+}

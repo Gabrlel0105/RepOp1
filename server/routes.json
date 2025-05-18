@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Ember Mug 2",
+      "description": "Smart temperature-controlled mug",
+      "photoUrl": "https://ember.com/images/mug.jpg",
+      "price": 129.99,
+      "bundleId": 1,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "Ember Travel Mug",
+      "description": "Smart travel mug for hot drinks",
+      "photoUrl": "https://ember.com/images/travel-mug.jpg",
+      "price": 179.99,
+      "bundleId": 1,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "title": "Ember Mug Charger",
+      "description": "Replacement charger for Ember mugs",
+      "photoUrl": "https://ember.com/images/charger.jpg",
+      "price": 29.99,
+      "bundleId": 2,
+      "rating": 4.6
+    }
+  ],
+  "bundles": [
+    {
+      "id": 1,
+      "title": "Mug Starter Pack",
+      "description": "Perfect for home and on the go",
+      "photoUrl": "https://ember.com/images/bundle1.jpg",
+      "price": 289.99,
+      "rating": 4.9
+    },
+    {
+      "id": 2,
+      "title": "Office Essentials",
+      "description": "Charger and mug combo",
+      "photoUrl": "https://ember.com/images/bundle2.jpg",
+      "price": 149.99,
+      "rating": 4.5
+    }
+  ]
+}
