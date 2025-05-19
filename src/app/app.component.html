@@ -1,13 +1,15 @@
-<mat-toolbar color="´primary">
-  <mat-toolbar-row>
-    <h1>Emper</h1>
-    <div class= "mat-spacer"></div>
-    @for (option of options; track option.label){
-      <a mat-button [routerLink]="option.link" routerLinkActive="active">
-        {{option.label|translate}}
-      </a>
+<mat-toolbar color="primary">
+  <div class="toolbar-content">
+    <h1 class="logo">Emper</h1>
 
-    }
-  </mat-toolbar-row>
+    <div class="right-group">
+      @for (option of options; track option.label) {
+        <a mat-button [routerLink]="option.link" routerLinkActive="active">
+          {{ option.label | translate }}
+        </a>
+      }
+      <app-language-switcher/>
+    </div>
+  </div>
 </mat-toolbar>
-<router-outlet></router-outlet>
+<router-outlet/>

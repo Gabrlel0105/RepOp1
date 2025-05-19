@@ -1,3 +1,16 @@
-.mat-spacer {
-  flex: 1 1 auto;
+.toolbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  margin: 0;
+}
+
+.right-group {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espacio entre los botones y el selector de idioma */
 }

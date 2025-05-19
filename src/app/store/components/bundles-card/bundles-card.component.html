@@ -1,1 +1,24 @@
-<p>bundles-card works!</p>
+<mat-card class="bundle-card">
+  <mat-card-header>
+    <mat-card-title>{{ bundle.title }}</mat-card-title>
+  </mat-card-header>
+
+  <img
+    mat-card-image
+    class="img-center"
+    [src]="bundle.photoUrl"
+    [alt]="'Image of ' + bundle.title"
+  />
+
+  <mat-card-content>
+    <p class="description">{{ bundle.description }}</p>
+
+    <p><strong>Bundle Price:</strong> {{ bundle.price | currency:'USD':'symbol':'1.2-2' }}</p>
+
+    <p *ngIf="youSave > 0" class="you-save">
+      <strong>You Save:</strong> {{ youSave | currency:'USD':'symbol':'1.2-2' }}!
+    </p>
+
+    <p><strong>Rating:</strong> {{ bundle.rating }}</p>
+  </mat-card-content>
+</mat-card>
