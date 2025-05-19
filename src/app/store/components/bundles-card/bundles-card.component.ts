@@ -1,7 +1,10 @@
+// Calcula cuánto se ahorra el usuario al comprar el bundle
 
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Bundle } from '../../models/bundle/bundles.entity';
 import { BundlesService } from '../../service/bundles.service';
+import { MatCardImage } from '@angular/material/card';
+
 import {
   MatCard,
   MatCardContent,
@@ -23,7 +26,7 @@ import {CurrencyPipe} from '@angular/common';
     CurrencyPipe,
     MatCardContent,
     MatCardModule,
-
+MatCardImage,
 
   ],
 })

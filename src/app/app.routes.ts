@@ -9,9 +9,13 @@ const BundlesCardComponent =
   () => import('./store/components/bundles-card/bundles-card.component')
     .then(m => m.BundlesCardComponent);
 
+const BundlesComponent =
+  () => import('./store/page/bundles/bundles.component')
+    .then(m => m.BundlesComponent);
+
 export const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  {path: 'store/bundles', loadComponent: BundlesCardComponent },
+  {path: 'store/bundles', loadComponent: BundlesComponent  },
   {path: '', redirectTo: 'home',pathMatch: 'full'},
   { path: '**',loadComponent:  PageNotFoundComponent }
 

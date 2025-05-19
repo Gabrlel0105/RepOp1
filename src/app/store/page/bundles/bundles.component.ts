@@ -1,3 +1,6 @@
+
+// Componente principal que carga y muestra todos los bundles
+
 import {Component, OnInit} from '@angular/core';
 import {Bundle} from "../../models/bundle/bundles.entity";
 import {BundlesService} from "../../service/bundles.service";
