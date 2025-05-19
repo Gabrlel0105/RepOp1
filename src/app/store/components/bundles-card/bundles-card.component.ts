@@ -9,9 +9,8 @@ import {
   MatCard,
   MatCardContent,
   MatCardHeader,
-  MatCardLgImage,
   MatCardModule,
-  MatCardTitleGroup
+
 } from '@angular/material/card';
 import {CurrencyPipe} from '@angular/common';
 

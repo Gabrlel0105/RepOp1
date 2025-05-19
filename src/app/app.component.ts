@@ -4,7 +4,7 @@
 import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 import {TranslatePipe, TranslateService} from '@ngx-translate/core';
-import {MatToolbar, MatToolbarRow} from '@angular/material/toolbar';
+import {MatToolbar} from '@angular/material/toolbar';
 import {MatAnchor} from '@angular/material/button';
 import {LanguageSwitcherComponent} from './public/components/language-switcher/language-switcher.component';
 

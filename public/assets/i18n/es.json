@@ -1,4 +1,6 @@
 {
   "home": "Inicio",
-  "bundles": "Paquetes"
+  "bundles": "Paquetes",
+  "HERO.TITLE": "La temperatura perfecta, en todo momento",
+  "HERO.DESCRIPTION": "La tecnología patentada de Ember te permite experimentar un control preciso de la temperatura en tu día a día, con la visión de transformar la forma en que el mundo come, bebe y vive, permitiéndote experimentar tu mundo sin límites."
 }
